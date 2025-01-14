@@ -1,0 +1,44 @@
+.Fondo{
+    background-image: linear-gradient(180deg, #00092A 17%, #A27379 100%);
+}
+
+.Title{
+    color: rgb(255, 255, 255);
+}
+.Botones{
+    width: 80vw;
+    display: flex;
+    justify-content: end;
+    padding-top: 50px;
+    margin: auto;
+}
+
+
+.Mas{
+    border: 3px solid #85565c;
+    background-color: #A27379;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 17px;
+    border-radius: 100px;
+    /* position: relative;
+    bottom: 30%;
+    left: 75%;
+    cursor: pointer;
+    top: -460px;   */
+}
+
+.Obras{
+    border: 3px solid #85565c;
+    background-color: #A27379;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 100px;
+}
+
+
+
+@media (max-width: 1024px){
+    
+}

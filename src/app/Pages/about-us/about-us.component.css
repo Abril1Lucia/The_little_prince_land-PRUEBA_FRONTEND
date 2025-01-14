@@ -1,0 +1,201 @@
+
+
+.Fondo{
+    background-image: linear-gradient(180deg, #00092A 17%, #A27379 100%);
+}
+
+
+.firstSection {
+    border: 3px solid #ffffff;
+    background-color: #C5C5C5;
+    border-radius: 30px;
+
+    width: 80vw;
+    margin: 100px auto;
+    
+    padding: 50px 20px;
+
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+
+.container {
+    width: 100%;
+    display: flex;
+
+
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.container img {
+    width: 30%;
+    border-radius: 50px;
+}
+
+.container p {
+    width: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.Libro{
+    width: 1350px;
+    height: 1000px;
+    top: -100px;
+}
+
+
+
+
+
+
+
+.title {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.cajasHover {
+    width: 90VW;
+    margin: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 3px solid #ffffff;
+    background-color: #C5C5C5;
+    border-radius: 30px;
+    width: 80vw;
+    margin: 100px auto;
+    padding: 50px 20px;
+}
+
+.contDescripción {
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contDescripcion .box {
+    position: relative;
+    width: 370px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.TituloChikito{
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+    font-size: 26PX;
+    border: 3px solid #ffffff;
+    background-color: #C5C5C5;
+    border-radius: 30px;
+    width: 70vw;
+    margin: 100px auto;
+    padding: 50px 20px;
+}
+
+.contTexto {
+    width: 400px;
+    text-align: center;
+    margin: 40px;
+    font-size: 26PX;
+    border: 3px solid #ffffff;
+    background-color: #C5C5C5;
+    border-radius: 30px;
+    width: 70vw;
+    margin: 100px auto;
+    padding: 50px 20px;
+}
+
+.mo {
+    width: 370px;
+    height: 470px;
+    transition: all 500ms ease-out;
+}
+
+.contDescripcion .box .capa1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--backgroundColor);
+    border-radius: 10px;
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+
+.contDescripcion .box:hover>.capa1 {
+    opacity: 1;
+    visibility: visible;
+}
+
+.Luna {
+    position: relative;
+    width: 370px;
+    height: 450px;
+    overflow: hidden;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.cajasHover p {
+    color: black;
+    font-size: 20px;
+    line-height: 2;
+    width: 90%;
+    max-width: 320px;
+    margin: auto;
+}
+
+
+
+@media (max-width: 1024px){
+
+
+    main{
+        overflow-y: auto;
+        height: auto;
+    }
+
+    .container{
+        gap: 20px;
+        width: 500px;
+
+    }
+
+    .firstSection p{
+        width: 390px;
+    }
+
+    .cajasHover{
+        text-align: center;
+  margin-bottom: 20px;
+    }
+
+     .cajasHover p{
+        display: block;
+        max-width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+        height: auto; /* Mantiene las proporciones de la imagen */
+        border-radius: 10px; /* Agrega bordes redondeados */
+     }
+}

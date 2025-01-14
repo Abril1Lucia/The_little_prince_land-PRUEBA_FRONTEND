@@ -1,0 +1,107 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.Fondo{
+    background-image: linear-gradient(180deg, #00092A 17%, #A27379 100%);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.imagen{
+    border: solid #00092A;
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    top: -30px; 
+
+}
+
+.container {
+    /* width: 100vw; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 75px;
+    margin-bottom: 75px; */
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.form-content {
+    /* width: 400px; */
+    height: auto;
+    background-color: #F2F2F2;
+    padding: 20px 50px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.form-content h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field {
+    margin-right: 50px;
+}
+
+.container input {
+    width: 125%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #568AB9;
+    border: 2px solid;
+}
+
+.btn{
+    background: #A27379;
+    border: #A27379;
+    border-radius: 30%;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 20%;
+    left: 5px;
+    cursor: pointer;
+    top: -10px;
+
+}
+
+.botoncito{
+    background: #A27379;
+    border-radius: 30%;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 20%;
+    left: 25px;
+    cursor: pointer;
+    top: -10px;
+}
+
+@media (max-width: 1024px){
+
+    main{
+        overflow-y: auto;
+        height: auto;
+    }
+}

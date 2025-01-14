@@ -1,0 +1,17 @@
+<div *ngFor="let item of allProducts" class="row mt-5">
+  
+<div class="card col">
+  <img [src]="item.image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h2 class="Title">{{item.name}}</h2>
+    <h4>descripcion:</h4>
+    <h5 class="descripcion">{{item.description}}</h5>
+    <h4>Tecnica:</h4>
+    <h5 class="tecnica">{{item.technique}}</h5>
+    <h4>Categoria:</h4>
+    <h5 class="categoria">{{item.category}} </h5>
+  </div>
+</div>
+
+</div>
+

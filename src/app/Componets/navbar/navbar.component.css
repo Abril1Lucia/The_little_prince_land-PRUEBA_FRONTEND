@@ -1,0 +1,96 @@
+
+
+.fondo{
+    background-color: #00092A;
+}
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+:root{
+    --backgroundColor: #ffffff;
+}
+
+.btnlogin {
+    background: #D19E71;
+    color: var(--backgroundColor);
+    border-radius: 30%;
+    padding: 15px 25px;
+    position: relative;
+    bottom: 20%;
+    left: 85%;
+    cursor: pointer;
+    top: -50px; 
+
+}
+  
+.btn-info{
+    background: rgb(107, 230, 107);
+    border-radius: 30%;
+    padding: 15px 25px;
+    position: relative;
+    bottom: 20%;
+    cursor: pointer;
+    top: -90px;
+    right: 250px;
+
+}
+
+h2{
+    color: #B2A18D;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100px;
+    font-size: 55px;
+    position: relative;
+    top: 20px; 
+}
+
+
+
+.container-fluid {
+    background-color: #aebcd8;
+    width: 100%;
+}
+
+
+.nav {
+    background-color: #aebcd8;
+    width: 100%;
+}
+
+.navbar-nav{
+    gap: 230px;
+    width: 100%;
+}
+
+@media (max-width: 1024px){
+    .btnlogin {
+        background: #D19E71;
+        color: var(--backgroundColor);
+        border-radius: 20%;
+        padding: 5px 15px;
+        position: relative;
+        bottom: 20%;
+        left: 43%;
+        cursor: pointer;
+        top: -10px; 
+    
+    }
+
+    .navbar-nav{
+        gap: 20px;
+        width: 100%;
+    }
+
+}

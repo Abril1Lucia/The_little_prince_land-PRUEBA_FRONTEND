@@ -1,0 +1,35 @@
+<main>
+
+    <!-- <a class="btnlogin" routerLink="/admin"> admins </a> -->
+    <!-- Login y Registro -->
+    <div class="Fondo">
+        <div class="container">
+
+            <div class="form-content">
+                <h1> LOGIN </h1>
+                <form [formGroup]="formularioLogin">
+                    <div class="input-group">
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" name="email" formControlName="email" placeholder="email">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" name="password" formControlName="password" placeholder="Contraseña">
+                        </div>
+                    </div>
+                    <div class="olvidaste">
+                        <p> ¿No te has registrado? <a routerLink="/registro"> registrate aqui </a></p>
+                    </div>
+                    <div class="btn-field">
+                        <button id="signUp" type="button" class="btn" (click)="AdminLogin()">Login Admin</button>
+                        <button id="signIn" type="button" class="botoncito" (click)="UserLogin()">Login Users</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer> </footer>
+

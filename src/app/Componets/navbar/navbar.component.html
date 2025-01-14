@@ -1,0 +1,36 @@
+<div class="fondo">
+<h2 class="Title">Little Prince Land</h2>
+
+<!-- TRABAJAR FALTA INTERFASE DE ADMIN -->
+
+<a class="btnlogin" routerLink="/login"> LOGIN </a>
+</div>
+<!-- esto deberia ir en el css -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+
+<div class="nav-list">
+
+<nav style="color: #aebcd8;" class="navbar navbar-expand-lg bg-body-tertiary menu">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link" aria-current="page" routerLink="/" >Inicio</a>
+          <a class="nav-link" routerLink ="/libro">Sobre el libro</a>
+          <a class="nav-link" routerLink="/obras">Obras</a>
+          <a class="nav-link" aria-disabled="true">Comunidad</a>
+          <a class="nav-link" routerLink="/about">Sobre mi </a>
+
+        </div>
+      </div>
+    </div>
+
+    <button *ngIf= "isLogged" class="btn-info">Cierre de sesion</button>
+  </nav>
+
+</div>

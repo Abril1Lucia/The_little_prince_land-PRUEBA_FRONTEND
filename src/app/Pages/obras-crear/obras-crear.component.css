@@ -1,0 +1,149 @@
+.fondo{
+    background-color: #00092A;
+}
+
+.Fondito{
+    background-image: linear-gradient(180deg, #00092A 17%, #A27379 100%);
+}
+
+.cedarville-cursive-regular {
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+:root{
+    --backgroundColor: #ffffff;
+}
+
+h2{
+    color: #B2A18D;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 500;
+    font-style: normal;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 100px;
+    font-size: 55px;
+    position: relative;
+    top: 20px; 
+}
+
+.Star{
+    background-color: #D9D9D9;
+    width: 80vw;
+    margin: 100px auto;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.input-field {
+    margin-right: 50px;
+    
+}
+
+.container input {
+    
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    color: #000000;
+    border: 2px solid;
+    background-color: #B8B7B7;
+    
+}
+
+
+.Principe{
+    width: 950px;
+    height: 290px;
+}
+
+.Zorro{
+    width: 950px;
+}
+
+.Rosa {
+    width: 950px;
+    height: 100px;
+}
+
+.btn{
+    border: 3px solid #A65437;
+    background-color: #D19E71;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 50px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 20%;
+    left: 90px;
+    cursor: pointer;
+    top: -70px; 
+}
+
+.botoncito{
+    border: 3px solid #A65437;
+    background-color: #D19E71;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px 50px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 20%;
+    left: 900px;
+    cursor: pointer;
+    top: -70px; 
+}
+
+@media (max-width: 1024px){
+
+    .botoncito{
+        border: 3px solid #A65437;
+        background-color: #D19E71;
+        font-weight: bold;
+        color: #ffffff;
+        padding: 20px 50px;
+        border-radius: 30px;
+        position: relative;
+        bottom: 20%;
+        left: 300px;
+        cursor: pointer;
+        top: -70px; 
+    }
+
+    .Principe{
+        width: 500px;
+        height: 290px;
+    }
+    
+    .Zorro{
+        width: 500px;
+    }
+    
+    .Rosa {
+        width: 500px;
+        height: 100px;
+    }
+
+    
+}
+

@@ -80,7 +80,7 @@ describe('ProductosService', () => {
 
 
 
-it('hacer la peticion del post users' , ()=>{
+it('hacer la peticion del post imagenes' , ()=>{
   const mockimagenes ={
     image: 'pueba generica',
     name: 'no c',
@@ -90,7 +90,7 @@ it('hacer la peticion del post users' , ()=>{
 }
   
   const mockResponse = {
-    mensaje: 'Se creó el usuario correctamente',
+    mensaje: 'Se creó la imagen correctamente',
     numeroUsuarios: mockimagenes,
     datos: mockimagenes
   }
@@ -121,7 +121,7 @@ it('hacer la peticion del post users' , ()=>{
 
 
 
-it('hacer la peticion del put image' , ()=>{
+it('hacer la peticion del put imagen' , ()=>{
 
   const MockId: string = '123';
   const actualizarUrl = `http://localhost:9000/imagenes/actualizar/:id/${MockId}`;
@@ -135,7 +135,7 @@ const mockimagenes ={
 }
 
 const mockResponse = {
-  mensaje: 'Se creó el usuario correctamente',
+  mensaje: 'Se actualizo la imagen correctamente',
   IdUsado: MockId,//borre el length, ya que este Id es un objeto, por lo que no es necesario su uso
   datos: {
     // Aquí deberían ir los datos actualizados del producto
@@ -180,7 +180,7 @@ req.flush(mockResponse);
 
 
 
-it('hacer la peticion del delete image' , ()=>{
+it('hacer la peticion del delete imagen' , ()=>{
 
   const MockId: string = '123';
   const eliminarUrl = `http://localhost:9000/imagenes/eliminar/:id/${MockId}`;
@@ -194,7 +194,7 @@ const mockimagenes ={
 }
 
 const mockResponse = {
-  mensaje: 'Se creó el usuario correctamente',
+  mensaje: 'Se elimino la imagen correctamente',
   IdUsado: MockId,//borre el length, ya que este Id es un objeto, por lo que no es necesario su uso
   datos: { id: MockId,
 }

@@ -21,7 +21,7 @@ export class ProductosService {
 
   
  //obtener datos
- getProducts() {
+getProducts() {
   return this._httpClient.get(this.API_URL_GET);
 }
 

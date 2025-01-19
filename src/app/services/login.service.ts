@@ -23,8 +23,8 @@ private URL_LOGIN_USER = "http://localhost:9000/iniciarSesion/Users"
 private URL_LOGIN_ADMIN ='http://localhost:9000/iniciarSesion/Admin'
 //iniciar sesion peticion de POST 
 
-IniciodeSesionUser(credencialesdeingreso:Credenciales){
-  return this._httpClient.post(this.URL_LOGIN_USER,credencialesdeingreso)
+IniciodeSesionUser(emailLogin: string, passwordLogin: string){
+  return this._httpClient.post(this.URL_LOGIN_USER , {emailLogin, passwordLogin})
 }
 
 InicioSesionAdmin(credencialesdeingreso:CredencialAdmin){

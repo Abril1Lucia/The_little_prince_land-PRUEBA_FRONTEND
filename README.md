@@ -1,4 +1,4 @@
-![imagen.png](assets/image.png)
+![imagen.png](public/assets/image.png)
 
 si no se ve algo, en el src, esta la carpeta assets, que tiene la imagen, giense por el nombre de la imagen, que es "image.png"  :D
 
